@@ -34,16 +34,21 @@ body {
     margin-top: 6%;
 }
 
-.inicio,.buscar,.biblioteca,.criarPlaylist,.musicasCurtidas,.seusEpisodios{
+#inicio,#buscar,#biblioteca,#criarPlaylist,#musicasCurtidas,#musicasSeguidas{
     display: flex;
     cursor: pointer;
     align-items:center;
 }
 
-.criarPlaylist {
+.area1 a{
+ color: gray;
+ text-decoration: none;
+}
+
+#criarPlaylist {
     margin-top: 15%;
 }
-.seusEpisodios {
+#musicasSeguidas {
     margin-bottom: 10%;
 }
 .area1 {
@@ -72,14 +77,14 @@ body {
 }
 
 
-.Header {
+#Header {
     height: 45px;
     width: 100%;
     display: flex;
     justify-content:right ;
 }
 
-.Header button {
+#Header button {
     height: 32px;
     width: 170px;
     margin: 2.5% 5% 0% 0%;
@@ -100,7 +105,7 @@ button img {
 button h4 {
     margin: 4% 0% 0% 0%;
 }
-.bannerPrincipal {
+#bannerPrincipal {
     height: 300px;
     width: 80%;
     margin: 50px auto;
@@ -194,6 +199,16 @@ button h4 {
     display: flex;
 }
 
+.bannerultimasTocadas button {
+    display: flex;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 215px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .bannerultimasTocadas div{
     height: 100%;
     width: 215px;
@@ -207,6 +222,15 @@ button h4 {
     margin-top: 3%;
     display: flex;
 }
+.bannersuasMusicas button{
+    display: flex;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 215px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
 .bannersuasMusicas div{
     height: 100%;
     width: 215px;
@@ -214,18 +238,20 @@ button h4 {
     background-color: rgb(13, 13, 13);
 }
 
-.iconeMusica img {
+.bannersuasMusicas img {
     height: 190px;
     width: 190px;
     display: flex;
     margin: 5% auto;
 }
-.iconeMusica h4 {
+.bannersuasMusicas h4 {
    color: white;
+   text-align: left;
    margin: 10% 0% 0% 5%;
 } 
-.iconeMusica p {
+.bannersuasMusicas p {
     color: gray;
+    text-align: left;
     margin: 10% 0% 0% 5%;
 }
 
@@ -234,6 +260,16 @@ button h4 {
     width: 98%;
     margin-top: 3%;
     display: flex;
+}
+
+.bannersuasPlaylists button {
+    display: flex;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 215px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .bannersuasPlaylists div{

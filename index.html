@@ -1,3 +1,4 @@
+<!--Criar o Player-->
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -12,49 +13,61 @@
             <section class="abaEsquerda">
                 <div class="area1">
                     <h6>App by Bruno Rodrigues</h6>
-                    <div class="inicio">
-                        <img src="./Imagens/casa.png">
-                        <p>Inicio</p>
-                    </div>  
-                    <div class="buscar">
-                        <img src="/Imagens/lupa.png">
-                        <p>Buscar</p>
-                    </div>
-                    <div class="biblioteca">
-                        <img src="./Imagens/biblioteca.png">
-                        <p>Sua Biblioteca</p>
-                    </div>
-                    <div class="criarPlaylist">
-                        <img src="./Imagens/mais.png">
-                        <p>Criar Playlist</p>
-                    </div>  
-                    <div class="musicasCurtidas">
-                        <img src="/Imagens/coracao.png">
-                        <p>Músicas Curtidas</p>
-                    </div>
-                    <div class="seusEpisodios">
-                        <img src="./Imagens/marca-paginas.png">
-                        <p>Seus Episódios</p>
-                    </div>
+                    <a href="#Header">
+                        <div id="inicio">
+                            <img src="./Imagens/casa.png">
+                            <p>Inicio</p>
+                        </div> 
+                    </a>
+                    <a href="">
+                        <div id="buscar">
+                            <img src="/Imagens/lupa.png">
+                            <p>Buscar</p>
+                        </div>
+                    </a> 
+                    <a href="">
+                        <div id="biblioteca">
+                            <img src="./Imagens/biblioteca.png">
+                            <p>Sua Biblioteca</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="criarPlaylist">
+                            <img src="./Imagens/mais.png">
+                            <p>Criar Playlist</p>
+                        </div>
+                    </a>  
+                    <a href="">
+                        <div id="musicasCurtidas">
+                            <img src="/Imagens/coracao.png">
+                            <p>Músicas Curtidas</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div id="musicasSeguidas">
+                            <img src="./Imagens/marca-paginas.png">
+                            <p>Musicas Seguidas</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="Playlist">
 
                 </div>
             </section>
             <section class="abaDireita">
-                <header class="Header"> 
+                <header id="Header"> 
                         <button>
                             <img src="./Imagens/imagem-do-usuario.png" alt="">
                             <h4>Usuario</h4>
                         </button>
                 </header>
-                <div class="bannerPrincipal">
+                <div id="bannerPrincipal">
                     <div class="fotobannerPrincipal"><img src="./Imagens/cyberpunk_Chippin.png" alt=""></div>
                     <div class="areadeInformacoes">
                         <p class="categoria">SINGLE</p>
                         <h1 class="nomeMusica">Chippin`in</h1>
                         <p class="descricao">Musica top de alta qualidade</p>
-                        <audio src="./Musicas/Cyberpunk_2077_Chippin_In_by_SAMURAI.mp3" ></audio>
+                        <audio class="audioPrincipal" src="./Musicas/Cyberpunk_2077_Chippin_In_by_SAMURAI.mp3" ></audio>
                         <button class="play"><h4>Play</h4></button>
                         <button class="seguir"><h4>Seguir</h4></button>
                     </div>
@@ -63,54 +76,110 @@
                 <div class="ultimasTocadas">
                     <h2>Musicas Recentes</h2>
                     <div class="bannerultimasTocadas">
-                        <div class="1"></div>
-                        <div class="2"></div>
-                        <div class="3"></div>
-                        <div class="4"></div>
-                        <div class="5"></div>
-                        <div class="6"></div>
+                        <button>
+                            <div class="1">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="2">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="3">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="4">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="5">
+                            </div></button>
+                        <button>
+                            <div class="6">
+                            </div>
+                        </button>
                     </div>
                 </div>
                 <div class="Musicas">
                     <h2>Musicas</h2>
                     <div class="bannersuasMusicas">
-                        <div class="iconeMusica">
-                            <img src="./Imagens/cyberpunk_Chippin.png">
-                            <h4>Chippin'In</h4>
-                            <p>2019 . Single</p>
-                        </div>
-                        <div class="iconeMusica">
-                            <img src="./Imagens/Cyberpunk_Never_fade_way.png">
-                            <h4>Never Fade Away</h4>
-                            <p>2019 . Single</p>
-                        </div>
-                        <div class="iconeMusica">
-                            <img src="./Imagens/Testament_Nana_Mizuki.png">
-                            <h4>Testament</h4>
-                            <p>2017 . Single</p>
-                        </div>
-                        <div class="iconeMusica">
-                            <img src="./Imagens/Usher_My_Boo.png">
-                            <h4>My Boo</h4>
-                            <p>2004 . Single</p>
-                        </div>
-                        <div class="iconeMusica">
-                            <img src="./Imagens/FairyTale_Shaman.png">
-                            <h4>Fairy Tale</h4>
-                            <p>2002 . Single</p>
-                        </div>
-                        <div class="iconeMusica"></div>
+                        <button class="playMusica">
+                            <div class="Chippin_In">
+                                <img src="./Imagens/cyberpunk_Chippin.png">
+                                <h4>Chippin'In</h4>
+                                <p>2019 . Single</p>
+                                <audio class="playChippin" src="./Musicas/Cyberpunk_2077_Chippin_In_by_SAMURAI.mp3"></audio>
+                            </div>
+                        </button>
+                        <button class="playMusica">
+                            <div class="Never_Fade_Away">
+                                <img src="./Imagens/Cyberpunk_Never_fade_way.png">
+                                <h4>Never Fade Away</h4>
+                                <p>2019 . Single</p>
+                                <audio class="playNever_Fade_Away" src="./Musicas/Cyberpunk 2077_Never_Fade_Away_by_SAMURAI.mp3"></audio>
+                            </div>
+                        </button>
+                        <button class="playMusica">
+                            <div class="Testament">
+                                <img src="./Imagens/Testament_Nana_Mizuki.png">
+                                <h4>Testament</h4>
+                                <p>2017 . Single</p>
+                                <audio class="playTestament" src="./Musicas/TESTAMENT_by_Nana_Mizuki.mp3"></audio>
+                            </div>
+                        </button>
+                        <button class="playMusica">
+                            <div class="My_Boo">
+                                <img src="./Imagens/Usher_My_Boo.png">
+                                <h4>My Boo</h4>
+                                <p>2004 . Single</p>
+                                <audio class="playmyBoo" src="./Musicas/Usher_ Alicia_Keys_My_Boo.mp3"></audio>
+                            </div>
+                        </button>
+                        <button class="playMusica">
+                            <div class="Fairy_Tale">
+                                <img src="./Imagens/FairyTale_Shaman.png">
+                                <h4>Fairy Tale</h4>
+                                <p>2002 . Single</p>
+                                <audio class="playfairyTale" src="./Musicas/SHAMAN_ FAIRY_TALE.mp3"></audio>
+                            </div>
+                        </button>
+                        <button class="playMusica">
+                            <div class="When_I_Was_Your_Man">
+                                <img src="./Imagens/Bruno_Mars_When_i_was_your_man.jpg">
+                                <h4>When I Was Your Man</h4>
+                                <p>2012 . Single</p>
+                                <audio class="playWhenIWasYourMan" src="./Musicas/Bruno_Mars_When_I_Was_Your_Man.mp3"></audio>
+                            </div>
+                        </button>
                     </div>
                 </div>
                 <div class="suasPlaylists">
                     <h2>Suas Playlists</h2>
                     <div class="bannersuasPlaylists">
-                        <div class="1"></div>
-                        <div class="2"></div>
-                        <div class="3"></div>
-                        <div class="4"></div>
-                        <div class="5"></div>
-                        <div class="6"></div>
+                        <button>
+                            <div class="1">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="2">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="3">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="4">
+                            </div>
+                        </button>
+                        <button>
+                            <div class="5">
+                            </div></button>
+                        <button>
+                            <div class="6">
+                            </div>
+                        </button>
                     </div>
                 </div>
             </section>
