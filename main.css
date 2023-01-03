@@ -120,6 +120,8 @@ button h4 {
     width: 300px;
 }
 .fotobannerPrincipal img {
+    height: 225px;
+    width: 225px;
     margin: 10% 0% 0% 10%;
 }
 
